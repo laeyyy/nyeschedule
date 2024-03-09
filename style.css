@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+}
+
+.image-container {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px auto;
+    border: 1px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.th-center {
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    table {
+        font-size: 12px;
+    }
+}
+
+.h1 {
+    text-align: center;
+}
+
+.pe {
+    background-color: blue;
+}
+
+.ethics {
+    background-color: purple;
+}
+
+.itep-206 {
+    background-color: green;
+}
+
+.itep-205 {
+    background-color: violet;
+}
+
+.itel-203 {
+    background-color: yellow;
+}
+
+.itep-204 {
+    background-color: orange;
+}
+
+.itep-207 {
+    background-color: gray;
+}
+
+@media print {
+    table {
+        font-size: 12px;
+        width: 90%;
+    }
+
+    .image-container {
+        display: none;
+    }
+}
+
+table {
+    page-break-inside: avoid;
+}
